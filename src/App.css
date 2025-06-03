@@ -1,0 +1,166 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.global-header h1 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.app {
+  min-width: 1000px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  gap: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.nav {
+  background-color: #dfdfdf;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 230px;
+  flex-shrink: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  margin-bottom: 1rem;
+}
+
+.nav a {
+  display: block;
+  padding: 0.75rem 1.5rem;
+  color: #333;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav a:hover {
+  background: #f0f4ff;
+  color: #007bff;
+}
+
+.nav a.active {
+  background: #007bff;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(0,123,255,0.08);
+}
+
+.main {
+  flex: 1;
+  min-width: 0;
+  padding: 1rem;
+}
+
+.page {
+  padding: 1rem;
+}
+
+.page h1 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.page p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* 科技感背景动画 */
+.tech-bg {
+  position: fixed;
+  z-index: 0;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  overflow: hidden;
+  background: linear-gradient(120deg, #0f2027 0%, #2c5364 100%);
+  z-index: -1;
+}
+
+.tech-bg::before, .tech-bg::after {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  left: -50%;
+  top: -50%;
+  background: repeating-linear-gradient(
+    120deg,
+    rgba(0,255,255,0.08) 0 2px,
+    transparent 2px 30px
+  );
+  animation: moveLines 8s linear infinite;
+}
+
+.tech-bg::after {
+  background: repeating-linear-gradient(
+    60deg,
+    rgba(0,255,255,0.06) 0 1.5px,
+    transparent 1.5px 32px
+  );
+  animation-direction: reverse;
+}
+
+@keyframes moveLines {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(40px); }
+}

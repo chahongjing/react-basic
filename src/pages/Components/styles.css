@@ -1,0 +1,215 @@
+.component-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.concept-section {
+  margin-bottom: 3rem;
+}
+
+.concept-section h2 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.demo-box {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.demo-box h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+
+
+.explanation {
+  margin: 1rem 0;
+}
+
+.explanation p {
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.explanation ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  color: #666;
+}
+
+.explanation li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.demo {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.demo h4 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* 计数器组件样式 */
+.counter {
+  text-align: center;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.controls button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.2rem;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.controls button:hover {
+  background: #0056b3;
+}
+
+.step-control {
+  margin-top: 1rem;
+}
+
+.step-control input {
+  width: 60px;
+  padding: 0.3rem;
+  margin-left: 0.5rem;
+}
+
+/* 用户卡片样式 */
+.user-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-card h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.user-card p {
+  color: #666;
+  margin: 0.3rem 0;
+}
+
+/* 输入框样式 */
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+/* 子组件样式 */
+.child-component {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  border: 1px solid #eee;
+}
+
+.child-component h3 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* 增强组件样式 */
+.enhanced-component {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  border: 1px solid #eee;
+}
+
+.enhanced-component h3 {
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* 表单样式 */
+form {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+form input {
+  flex: 1;
+}
+
+form button {
+  white-space: nowrap;
+} 
